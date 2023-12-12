@@ -23,9 +23,7 @@ die('
         <br/>
         <br/>
         <p>
-        Contact to your system Administrator. Or Start Installation
-        <a href="'.$_SERVER['SCRIPT_NAME'].'/System_Installer/setup">Install</a>
-        </p>
+        Contact to your system Administrator.</p>
     </center>
 </body>
 </html>

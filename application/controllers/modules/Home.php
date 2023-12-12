@@ -29,6 +29,7 @@ class Home extends CI_Controller {
         $this->load->model('SMS_Model');
         $this->load->library("Auth");
         $this->Auth = new Auth();
+        
         date_default_timezone_set("Asia/Kolkata");
         
         //clear
@@ -134,14 +135,14 @@ class Home extends CI_Controller {
     
     public function validateLogin()
     {
-        $purchase_code = str_replace('www.', '', o_pkey(get_config_item('purchase_code')));
+        /*$purchase_code = str_replace('www.', '', o_pkey(get_config_item('purchase_code')));
         $res = file_get_contents(VERIFY_URL.'verify?code='.$purchase_code);
        
         if(json_decode($res)->is_valid==='no')
         {
             $this->session->set_flashdata("l-error","Your account has been disabled! Please contact to administrator.");
             redirect('/');
-        }
+        }*/
         
         $_SESSION['sgen'] = encrypt_me(rand(0,10000000));
         $is2step = get_config_item('two_step_verification');
@@ -206,6 +207,7 @@ class Home extends CI_Controller {
         }else{
             $this->session->set_flashdata("l-error","Sorry, you are not allowed to login.");
         }
+
         if(isset($_SESSION['ref_url']) && !empty($_SESSION['ref_url'])){
             redirect(base64_decode($_SESSION['ref_url']));
         }else{
