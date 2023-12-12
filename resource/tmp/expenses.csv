@@ -1,0 +1,10 @@
+"S. No.","Project Name","Client Name",Category,"Expense Date",Comment,Quantity,Price,"Total Price",Type,"Created By"
+1,"Team Payouts","Inspire Accounting",salary,09-10-2023,"Gaurav salary",1,10000.00,10000.00,cash,GauravKapasia
+2,"Team Payouts","Inspire Accounting",salary,25-08-2023,"Meri salary maine 10k le liye.",1,10000.00,10000.00,cash,GauravKapasia
+3,"Team Payouts","Inspire Accounting",salary,08-08-2023,,1,3000.00,3000.00,cash,GauravKapasia
+4,"Team Payouts","Inspire Accounting","salary advance",20-07-2023,,1,5860.00,5860.00,cash,GauravKapasia
+5,"Team Payouts","Inspire Accounting","salary advance",14-07-2023,,1,1000.00,1000.00,cash,GauravKapasia
+6,"Team Payouts","Inspire Accounting","travelling allowance",10-07-2023,,1,1000.00,1000.00,cash,GauravKapasia
+7,"Team Payouts","Inspire Accounting",salary,30-06-2023,"paid to gaurav as salary advance for the month of June that is to be discussed on 7 July 2023",1,12995.00,12995.00,cash,GauravKapasia
+8,"Team Payouts","Inspire Accounting",salary,13-06-2023,"Meri salary hai may ki",1,12000.00,12000.00,cash,GauravKapasia
+9,"Team Payouts","Inspire Accounting","travelling allowance",10-06-2023,,1,1000.00,1000.00,cash,GauravKapasia
