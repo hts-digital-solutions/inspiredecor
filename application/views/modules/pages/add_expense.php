@@ -95,7 +95,7 @@
                     <label>Business Associate</label>
                     <select name="agent" class="form-control">
                         <option value="">Select</option>
-                        <option value="0"  <?= isset($expense)? ($expense->created_by_id === '0' ? 'selected' : '') :'' ?>>Admin</option>
+                        <option value="0"  <?= isset($expense)? ($expense->created_by_id === '0' ? 'selected' : '') :'' ?>>Admin user</option>
                         <?php foreach($agents as $a):?>
                             <option value="<?=$a->agent_id?>" <?=$a->agent_id === ($expense->created_by_id ?? '') ? 'selected' : ''?>><?=$a->agent_name?></option>
                         <?php endforeach;?>
